@@ -5,11 +5,6 @@ KERNEL_DIR=common
 BRANCH=
 DEFCONFIG=android_rpi4_defconfig
 
-MAKE_GOALS="
-Image
-dtbs
-"
-
 FILES="
 arch/arm64/boot/Image
 arch/arm64/boot/dts/broadcom/bcm2711-rpi-4-b.dtb
